@@ -1,0 +1,25 @@
+{
+    "gantt": {
+        "title": "Gantt diagram"
+    },
+    "stringControl": {
+        "label": "Subject"
+    },
+    "performedWorkDetailsGrid": {
+        "columns": {
+            "id": "ID",
+            "title": "Title",
+            "jobKind": "Job kind",
+            "duration": "Duration",
+            "comment": "Comment"
+        },
+        "buttons": {
+            "copy": "Copy",
+            "remove": "Remove",
+            "add": "Add entry"
+        },
+        "summary": {
+            "total": "Total"
+        }
+    }
+}

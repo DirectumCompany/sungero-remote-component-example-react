@@ -1,0 +1,37 @@
+.string-control {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+}
+
+.string-control__label {
+  margin-bottom: 10px;
+  /** Для соответствия общему UI веб клиента и текущей теме (светлая, темная) лучше использовать css-переменные темы веб клиента. */
+  color: var(--theme_label-enabled-color);
+}
+
+.string-control__label_disabled {
+  color: var(--theme_label-disabled-color);
+}
+
+.string-control__input {
+  border-radius: 3px;
+  border: 1px solid var(--theme_border-color-dark);
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 5px;
+  color: var(--theme_text-primary);
+}
+
+.string-control__input:focus {
+  border-color: var(--theme_focused-editor-border-color);
+  border-width: 2px; 
+  outline: none;
+}
+
+.string-control__label_disabled:focus {
+  border-color: var(--theme_border-color-dark);
+}

@@ -1,0 +1,25 @@
+{
+    "gantt": {
+        "title": "Диаграмма Ганта"
+    },
+    "stringControl": {
+        "label": "Содержание"
+    },
+    "performedWorkDetailsGrid": {
+        "columns": {
+            "id": "ИД",
+            "title": "Наименование",
+            "jobKind": "Вид работ",
+            "duration": "Часы",
+            "comment": "Примечание"
+        },
+        "buttons": {
+            "copy": "Скопировать",
+            "remove": "Удалить",
+            "add": "Добавить запись"
+        },
+        "summary": {
+            "total": "Итого"
+        }
+    }
+}

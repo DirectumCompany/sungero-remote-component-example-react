@@ -1,0 +1,15 @@
+.gantt {
+  padding: 0 10px;
+}
+
+.gantt__title {
+  font-family: var(--theme_font-family);
+  font-size: var(--theme_font-size-xl);
+  font-weight: var(--theme_font-weight-regular);
+  line-height: 27px;
+  margin: 10px 0;
+}
+
+.gantt .gantt-button {
+  color: var(--theme_cover-title-color);
+}

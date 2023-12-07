@@ -1,0 +1,33 @@
+.buttons-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  justify-content: space-around;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.buttons-panel__button {
+  margin: 3px;
+  padding: 4px 5px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: var(--theme_button-background);
+  font-size: var(--theme_font-size-sp);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: var(--theme_text-primary);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.buttons-panel__button:hover {
+  background-color: var(--theme_hovered-button-background);
+  border-color: var(--theme_button-border-color);
+  color: var(--theme_primary-contrast);
+}
