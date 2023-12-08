@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { createRoot } from 'react-dom/client';
-import { ControlCleanupCallback, ILoaderArgs, IRemoteComponentCoverApi } from '@sungero/remote-component-types';
+import { ControlCleanupCallback, ILoaderArgs, IRemoteComponentCoverApi } from '@directum/sungero-remote-component-types';
 
 import ActionsPanel from '../controls/actions-panel/actions-panel';
 

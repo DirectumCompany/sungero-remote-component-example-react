@@ -1,4 +1,4 @@
-import { ILogger, IRemoteComponentContext, Theme } from '@sungero/remote-component-types';
+import { ILogger, IRemoteComponentContext, Theme } from '@directum/sungero-remote-component-types';
 
 /** Заглушка контекста для отладки в режиме standalone. */
 const context: IRemoteComponentContext = {

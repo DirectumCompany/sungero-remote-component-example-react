@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { IRemoteComponentContext, IEntity, IRemoteControlInfo, IRemoteComponentCardApi, ControlUpdateHandler } from '@sungero/remote-component-types';
+import { IRemoteComponentContext, IEntity, IRemoteControlInfo, IRemoteComponentCardApi, ControlUpdateHandler } from '@directum/sungero-remote-component-types';
 
 import '../../../i18n';
 

@@ -1,4 +1,4 @@
-import { IRemoteControlLoader } from '@sungero/remote-component-types';
+import { IRemoteControlLoader } from '@directum/sungero-remote-component-types';
 
 import * as ActionPanelCoverLoader from './src/loaders/actions-panel-cover-loader';
 import * as GanttCoverLoader from './src/loaders/gantt-cover-loader';

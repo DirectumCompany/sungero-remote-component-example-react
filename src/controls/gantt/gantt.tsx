@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Task } from 'gantt-task-react';
-import { ControlUpdateHandler, IRemoteComponentApi, IRemoteComponentContext } from '@sungero/remote-component-types';
+import { ControlUpdateHandler, IRemoteComponentApi, IRemoteComponentContext } from '@directum/sungero-remote-component-types';
 
 import '../../../i18n';
 import { dataSource } from './gantt-data-source'

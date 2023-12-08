@@ -1,4 +1,4 @@
-import { IEntity, IRemoteComponentCardApi } from '@sungero/remote-component-types';
+import { IEntity, IRemoteComponentCardApi } from '@directum/sungero-remote-component-types';
 
 /** Заглушка API для отладки в режиме standalone. */
 class HostStubApi implements IRemoteComponentCardApi {

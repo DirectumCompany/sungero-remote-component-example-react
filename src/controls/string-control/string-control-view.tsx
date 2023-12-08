@@ -1,5 +1,5 @@
 import React from 'react';
-import { Theme } from '@sungero/remote-component-types';
+import { Theme } from '@directum/sungero-remote-component-types';
 
 import './string-control-view.css';
 

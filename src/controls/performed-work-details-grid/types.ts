@@ -1,4 +1,4 @@
-import { IChildEntity, IChildEntityCollection, IEntity, INavigationPropertyValue } from '@sungero/remote-component-types';
+import { IChildEntity, IChildEntityCollection, IEntity, INavigationPropertyValue } from '@directum/sungero-remote-component-types';
 
 export interface IPerformedWorkDetails extends IChildEntity<IPerformedWork> {
   Title: string;

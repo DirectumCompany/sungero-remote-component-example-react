@@ -1,5 +1,5 @@
 import React from 'react';
-import { IRemoteComponentContext, IRemoteComponentCoverApi } from '@sungero/remote-component-types';
+import { IRemoteComponentContext, IRemoteComponentCoverApi } from '@directum/sungero-remote-component-types';
 
 import ButtonsPanel from './actions-panel-view';
 

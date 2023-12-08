@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { createRoot } from 'react-dom/client';
-import { ControlCleanupCallback, ILoaderArgs, IRemoteComponentCardApi } from '@sungero/remote-component-types';
+import { ControlCleanupCallback, ILoaderArgs, IRemoteComponentCardApi } from '@directum/sungero-remote-component-types';
 
 import PerformedWorkDetailsGrid from '../controls/performed-work-details-grid/performed-work-details-grid';
 
