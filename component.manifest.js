@@ -17,6 +17,10 @@ module.exports = {
           // Контекст для которого предназначен загрузчик.
           scope: 'Cover'
         }
+      ],
+      displayNames: [
+        { locale: 'en', name: 'Gantt diagram' },
+        { locale: 'ru', name: 'Диаграмма Ганта' },
       ]
     },
     {
@@ -26,6 +30,10 @@ module.exports = {
           name: 'performed-work-details-grid-card-loader',
           scope: 'Card'
         }
+      ],
+      displayNames: [
+        { locale: 'en', name: 'Performed work details' },
+        { locale: 'ru', name: 'Список выполненных работ' },
       ]
     },
     {
@@ -35,6 +43,10 @@ module.exports = {
           name: 'actions-panel-cover-loader',
           scope: 'Cover'
         }
+      ],
+      displayNames: [
+        { locale: 'en', name: 'Actions panel' },
+        { locale: 'ru', name: 'Панель действий' },
       ]
     },
     {
@@ -44,6 +56,10 @@ module.exports = {
           name: 'string-control-card-loader',
           scope: 'Card'
         }
+      ],
+      displayNames: [
+        { locale: 'en', name: 'String property editor' },
+        { locale: 'ru', name: 'Редактор строкового свойства' },
       ]
     }
   ]
