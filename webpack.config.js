@@ -89,8 +89,7 @@ module.exports = (env, argv) => {
     plugins: standaloneMode ? [ new HtmlWebpackPlugin({ template: './index.html' }) ] : 
     [
       new MiniCssExtractPlugin({ 
-        filename: devMode ? "css/[name].css" : "css/[name].[contenthash:8].css",
-        insert: new Function('linkTag', `document.querySelector('.remote-control__${publicName.toLowerCase()}').shadowRoot.appendChild(linkTag);`)
+        filename: devMode ? "css/[name].css" : "css/[name].[contenthash:8].css"
       }),
       new ModuleFederationPlugin({
         name: publicName,
