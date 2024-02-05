@@ -89,7 +89,9 @@ module.exports = (env, argv) => {
     plugins: standaloneMode ? [ new HtmlWebpackPlugin({ template: './index.html' }) ] : 
     [
       new MiniCssExtractPlugin({ 
-        filename: devMode ? "css/[name].css" : "css/[name].[contenthash:8].css"
+        filename: devMode ? 'css/[name].css' : 'css/[name].[contenthash:8].css',
+        // Убрать insert, если требуется поднять приоритет стилей стороннего контрола над стилями веб клиента.
+        insert: linkTag => document.head.prepend(linkTag)
       }),
       new ModuleFederationPlugin({
         name: publicName,
