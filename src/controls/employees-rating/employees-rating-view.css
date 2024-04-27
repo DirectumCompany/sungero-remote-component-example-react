@@ -1,0 +1,49 @@
+.employees-rating {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.employees-rating--item__name {
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.employees-rating--item__employees {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.employees-rating--item__employees--employee {
+  color: blue;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.employees-rating--progress {
+  width: 500px;
+  background: lightgray;
+  display: flex;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.employees-rating--progress__bar {
+  display: flex;
+  justify-content: center;
+  background: lightskyblue;
+  align-items: center;
+
+  transition: width .3s;
+
+}
+
+.employees-rating--header {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}

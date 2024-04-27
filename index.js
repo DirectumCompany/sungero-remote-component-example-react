@@ -2,7 +2,7 @@
 
 import api from './host-api-stub';
 import context from './host-context-stub';
-import loadApp from './src/loaders/performed-work-details-grid-card-loader';
+import loadApp from './src/loaders/employees-rating-loader';
 
 let args = {
   container: document.getElementById('app'),
