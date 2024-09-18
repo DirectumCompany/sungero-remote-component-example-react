@@ -4,4 +4,15 @@ import api from './host-api-stub';
 import context from './host-context-stub';
 import loadApp from './src/loaders/performed-work-details-grid-card-loader';
 
-loadApp(document.getElementById('app'), context, api);
+let args = {
+    /** Контейнер. */
+    container: document.getElementById('app'),
+    /** Контекст инициализации. */
+    initialContext: context,
+    /** API сторонних компонентов. */
+    api: api,
+    /** Параметры стороннего контрола.*/
+    controlInfo: null
+}
+
+loadApp(args);

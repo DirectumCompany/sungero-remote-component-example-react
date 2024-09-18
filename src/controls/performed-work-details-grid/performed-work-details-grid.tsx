@@ -23,7 +23,7 @@ const PerformedWorkDetailsGrid: React.FC<IProps> = ({ initialContext, api }) => 
   const [ context, setContext ] = React.useState(initialContext);
   
   // Задаем локализацию внутри контрола в соответствии с локализацией в контексте, в котором находится контрол.
-  const currentCulture = context.currentCulture ?? DEFAULT_CULTURE;
+  const currentCulture = context?.currentCulture ?? DEFAULT_CULTURE;
   const { i18n } = useTranslation();
   React.useEffect(() => {      
     i18n.changeLanguage(currentCulture);
