@@ -8,7 +8,7 @@ let args = {
     /** Контейнер. */
     container: document.getElementById('app'),
     /** Контекст инициализации. */
-    initialContext: null,
+    initialContext: context,
     /** API сторонних компонентов. */
     api: api,
     /** Параметры стороннего контрола.*/
